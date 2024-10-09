@@ -1,0 +1,94 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 60px; /* Footer height */
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  width: 350px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.btn-logout {
+  background-color: #e74c3c;
+}
+
+.btn-logout:hover {
+  background-color: #c0392b;
+}
+
+.message {
+  margin-top: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 50px;
+  font-size: 14px;
+  color: #555;
+}
